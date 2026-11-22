@@ -19,8 +19,8 @@ from typing import Any
 import requests
 
 BASE_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
-TEXT_MAX_TOKENS = 4096
-VISION_MAX_TOKENS = 1536
+TEXT_MAX_TOKENS = 1024
+VISION_MAX_TOKENS = 1024
 
 LANG_NAMES = {
     "zh": "简体中文",
