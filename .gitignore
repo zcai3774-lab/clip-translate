@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.spec
+*.log
+
+# Local / diagnostic artifacts
+docs/screen-full.png
+docs/selector.png
+docs/selection.png
+docs/hint.png
+config.json
