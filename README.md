@@ -6,7 +6,9 @@
 
 **复制即译，截图即译。** 一个轻量的 Windows 桌面实时翻译工具。
 
-[功能](#功能) · [快速开始](#快速开始) · [使用说明](#使用说明) · [打包 exe](#打包-exe) · [实现原理](#实现原理) · [隐私](#隐私与数据)
+[功能](#功能) · [快速开始](#快速开始) · [使用说明](#使用说明) · [打包 exe](#打包-exe) · [实现原理](#实现原理) · [隐私](#隐私与数据) · [GitHub](https://github.com/zcai3774-lab/clip-translate)
+
+[![tests](https://github.com/zcai3774-lab/clip-translate/actions/workflows/tests.yml/badge.svg)](https://github.com/zcai3774-lab/clip-translate/actions/workflows/tests.yml)
 
 </div>
 
@@ -39,7 +41,14 @@
 
 ### 2. 安装依赖
 
-在项目目录打开 PowerShell：
+在 PowerShell 中获取代码并进入项目目录：
+
+```powershell
+git clone https://github.com/zcai3774-lab/clip-translate.git
+cd clip-translate
+```
+
+然后安装依赖：
 
 ```powershell
 python -m pip install -r requirements.txt

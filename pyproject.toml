@@ -33,6 +33,11 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest>=8.0", "pyinstaller>=6.0"]
 
+[project.urls]
+Homepage = "https://github.com/zcai3774-lab/clip-translate"
+Repository = "https://github.com/zcai3774-lab/clip-translate"
+Issues = "https://github.com/zcai3774-lab/clip-translate/issues"
+
 [project.gui-scripts]
 cliplens = "cliplens.app:main"
 
